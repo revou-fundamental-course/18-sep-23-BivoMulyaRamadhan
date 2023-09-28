@@ -154,7 +154,7 @@ select {
     background: lightgray;
     
     border-radius: 100%;
-    width: 2em;
+    width: 1.2em;
     align-items: center;
 }
 
@@ -196,9 +196,9 @@ select {
     display: flex;
     justify-content: center;
     background: lightgray;
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 50%;
-    width: 3em;
+    width: 5em;
 }
 
 .item-desc {
