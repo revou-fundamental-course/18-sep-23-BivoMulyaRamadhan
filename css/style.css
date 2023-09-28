@@ -117,3 +117,26 @@ select{
     border-radius: 50%;
     width: 1.2em;
 }
+
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+    
+    .content-left {
+        width: 100%;
+    }
+    
+    .content-right {
+        width: 100%;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .nav {
+        /*display: none !important;*/
+        flex-direction: column;
+    }
+}
